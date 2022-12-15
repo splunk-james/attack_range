@@ -5,6 +5,8 @@ We built a docker image which you can use to run the attack range code:
 ````console
 docker pull splunk/attack_range
 docker run -it splunk/attack_range
+poetry shell
+poetry install
 aws configure
 python attack_range.py configure
 ````
